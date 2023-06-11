@@ -1,0 +1,25 @@
+from Bio import AlignIO
+
+# Pfad zur clustalW-Datei
+clustalw_file = "pfad_zur_datei.clustalw"
+
+# Alignment einlesen
+alignment = AlignIO.read(clustalw_file, "clustal")
+
+# Anzahl der Sequenzen im Alignment
+num_sequences = len(alignment)
+
+# Durchlaufe die Positionen im Alignment
+for i in range(alignment.get_alignment_length()):
+    # Liste zum Speichern der Positionen mit * oder :
+    similar_positions = []
+    
+    # Durchlaufe die Sequenzen im Alignment
+    for j in range(num_sequences):
+        # Überprüfe, ob das Zeichen an der aktuellen Position ein * oder : ist
+        if alignment[j, i] == "*" or alignment[j, i] == ":":
+            similar_positions.append(i)
+    
+    # Gib die Positionen aus, wenn mindestens zwei Sequenzen übereinstimmen
+    if len(similar_positions) >= 2:
+        print("Ähnliche Position:", i, "in den Sequenzen:", similar_positions)
