@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Tue 27 Jun 2023 16:18:09
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20230627-161807-0040-40954928-p1m.aupfile
+#    -bsequence emboss_needle-I20230627-161807-0040-40954928-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLAT_ECOLX
+# 2: EMBOSS0001
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 308
+# Identity:     193/308 (62.7%)
+# Similarity:   206/308 (66.9%)
+# Gaps:          44/308 (14.3%)
+# Score: 929.5
+# 
+#
+#=======================================
+
+BLAT_ECOLX         1 MSIQHFRVALIPFFAAFCLPVF----------------------AHPETL     28
+                                                                 |....|
+EMBOSS0001         1 ----------------------xxxxxxxxxxxxxxxxxxxxxxAxxxxL     28
+
+BLAT_ECOLX        29 VKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAV     78
+                     ..||..|.|||||||...|||:|||.|.|:|.:|||||.|||||||||||
+EMBOSS0001        29 xxVKxxExQLGARVGxxxLDLSSGKxLxSYRxDERFPMxSTFKVLLCGAV     78
+
+BLAT_ECOLX        79 LSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMS    128
+                     |||||||:|||.|||.|||||||.||||||||:.|||||.|||.||||||
+EMBOSS0001        79 LSRVDAGEEQLDRRIxYSQNDLVxYSPVTEKHIxDGMTVxELCxAAITMS    128
+
+BLAT_ECOLX       129 DNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDT    178
+                     |||||||||.||||||.|||||..:||.||||||||||||||||.|.|||
+EMBOSS0001       129 DNTAANLLLxTIGGPKxLTAFLRxIGDxVTRLDRWEPELNEAIPGDxRDT    178
+
+BLAT_ECOLX       179 TMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWF    228
+                     |.|.|||.||||||.||:|:..|||||:.||..||||||||||.|||||.
+EMBOSS0001       179 TTPxAMAxTLRKLLxGEVLSxxSRQQLVxWMxxDKVAGPLLRSxLPAGWx    228
+
+BLAT_ECOLX       229 IADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEI    278
+                     ||||:|||..|||.|||.|.||.|...||.||.|.::|||||||..||||
+EMBOSS0001       229 IADKTGAGxxGSRxIIAVLxPDxKxxxIVxIYLTxTEATMDERNxxIAEI    278
+
+BLAT_ECOLX       279 GASLIKHW    286
+                     |.:||...
+EMBOSS0001       279 GxALIxxx    286
+
+
+#---------------------------------------
+#---------------------------------------
