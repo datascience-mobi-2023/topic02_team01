@@ -5,7 +5,8 @@
 ## What is this about?
 TEM-1 Beta-Lactamase is an enzyme which enables bacteria, like *Escherichia Coli* to gain resistance against Beta-Lactam antibiotics. Based on a collection of Deep-Mutational-Scan (DMS) datasets (Notin et al., 2022) providing fitness scores for single mutants for every position of TEM-1 Beta-Lactamse an analysis was performed. The goals were to understand more about the infuence of different DMS-methods, assessment of the mutational robustness or fragility for each residue and the connection between conservation and DMS-data.
 
-### Datasets
+## Datasets
+### DMS-datasets
 The Analysis was performed based on three datasets. The DMS-methods which were used to create these datasets can be divided in two types:
 #### "growth method"
 * Stiffler et al.
@@ -14,7 +15,13 @@ The Analysis was performed based on three datasets. The DMS-methods which were u
 * Deng et al.
 
 The fitness values from the original csv files are not normalized.
-Find the original csv files [here](dataSources)
+Find the original csv files [here](dataSources/DMS_datasets)
+
+### MSA-datasets
+Find the original files for the MSA [here](dataSources/MSA_datasets)
+
+### Handovers
+Handovers are .csv or .pkl files, that are created through the code. These files are used at another point. Therefore they are stored in the directory "[handovers](dataSources/handovers)"
 
 ### Main Features
 * [Data Cleaning](Final_Cleanup_Normalization_PositionEffects.ipynb)
