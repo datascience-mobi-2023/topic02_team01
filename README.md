@@ -34,7 +34,7 @@ Find the original files for the MSA [here](dataSources/MSA_datasets).
 Handovers are .csv or .pkl files, that are created through the code and are used to communicate processed data between the notebkooks. Therefor they are stored in the directory "[handovers](dataSources/handovers)".
 
 ## Main Features
-* [Data Cleaning](Final_Cleanup_Normalization_PositionEffects.ipynb)
+* [Data Cleaning](Final_Cleanup_Normalization_PositionEffects.ipynb): Clipping of datasets where it was necessary.
 * [Evaluation of normalization methods](Final_Cleanup_Normalization_PositionEffects.ipynb): Based on a visual analysis by heatmaps and a Wilcoxon Signed Ranked Test between the datasets, different normalization methods were evaluated.
 * [Normaliztaion](Final_Cleanup_Normalization_PositionEffects.ipynb): Z-normalization was performed for all datasets
 * [Creation and evaluation of different Position Effect models](Final_Cleanup_Normalization_PositionEffects.ipynb): Three Position Effect Models were created (Mean DMS-score Mode, Quantile Model, Area Under Curve Model) and evaluated based on the correlation between the model-value and conservation.
