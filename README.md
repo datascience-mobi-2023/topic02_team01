@@ -1,4 +1,5 @@
 # team01 of topic02 
+Malte Klein, Svea Meinicke, Christoph Luh, Felix Schubert
 
 
 # Deep Mutational Scan Analysis of TEM-1 Beta-Lactamase
